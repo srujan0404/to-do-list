@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function saveData() {
     localStorage.setItem("data", list.innerHTML);
   }
-
+ 
   function showlist() {
     list.innerHTML = localStorage.getItem("data");
   }
